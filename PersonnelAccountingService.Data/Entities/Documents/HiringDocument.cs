@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonnelAccountingService.Data.Entities.Documents
 {
-    public class HiringDocument : BaseDocument
+    public class HiringDocument : BaseIntervalDocument
     {
         public Organization Organization { get; set; }
         public Person Person { get; set; }
